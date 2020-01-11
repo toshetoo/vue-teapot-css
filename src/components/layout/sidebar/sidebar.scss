@@ -1,0 +1,76 @@
+.sidebar {
+    min-height: 100vh;        
+    background: linear-gradient(0deg,#389466,#42b883);
+    border-radius: 5px;
+    padding: 10px;
+
+    .sidebar-header {
+        border-bottom:1px solid white;
+
+        .logo {
+            position: relative;
+            padding: .5rem .7rem;
+            z-index: 4;
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+
+            .company-name {
+                text-decoration: none;
+                color: white;
+                text-transform: capitalize;
+                font-size: 1.5rem;
+            }
+
+            .logo-img {
+                width: 32px;
+                display: flex;
+                height: 32px;
+                background: #fff;
+                align-items: center;
+                justify-content: center;
+                border-radius: 32px;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    .sidebar-menu-holder {
+        margin-top: 20px;
+        display: block;
+        list-style: none;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+
+        .list-item {
+            color: #fff;
+            cursor: pointer;
+
+            a {
+                margin: 0 15px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                cursor: pointer;
+                padding: 10px 8px;
+                line-height: 1.625rem;
+                font-size: 0.75rem;
+
+                    p {
+        margin: 0;
+        margin-left: 1rem;
+        font-weight: 600;
+        color: hsla(0,0%,100%,.8);
+    }
+        }
+    }
+}
+}

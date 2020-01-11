@@ -14,13 +14,35 @@
         </div>   
         <ul class="sidebar-menu-holder">
             <li class="list-item">                
-                <i class="far fa-cog mr-1"></i>
-                <span class="room-name">All Rooms</span>
+                <a href="#/dashboard" class="nav-link">
+                   <font-awesome-icon icon="chart-pie" />
+                    <p class="ml-2">dashboard</p>
+                </a>
             </li>
-            <li class="list-item">item</li>
-            <li class="list-item">item</li>
-            <li class="list-item">item</li>
-            <li class="list-item">item</li>
+            <li class="list-item">                
+                <a href="#/dashboard" class="nav-link">
+                    <font-awesome-icon icon="chart-pie" />
+                    <p class="ml-2">dashboard</p>
+                </a>
+            </li>
+            <li class="list-item">                
+                <a href="#/dashboard" class="nav-link">
+                    <font-awesome-icon icon="chart-pie" />
+                    <p class="ml-2">dashboard</p>
+                </a>
+            </li>
+            <li class="list-item">                
+                <a href="#/dashboard" class="nav-link">
+                    <font-awesome-icon icon="chart-pie" />
+                    <p class="ml-2">dashboard</p>
+                </a>
+            </li>
+            <li class="list-item">                
+                <a href="#/dashboard" class="nav-link">
+                    <font-awesome-icon icon="chart-pie" />
+                    <p class="ml-2">dashboard</p>
+                </a>
+            </li>
         </ul>
     </div>
 </template>
@@ -32,53 +54,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .sidebar {
-        min-height: 100vh;        
-        background: linear-gradient(0deg,#389466,#42b883);
-        border-radius: 5px;
-        padding: 10px;
-
-        .sidebar-header {
-            border-bottom:1px solid white;
-
-            .logo {
-                position: relative;
-                padding: .5rem .7rem;
-                z-index: 4;
-                display: flex;
-                flex-basis: 100%;
-                align-items: center;
-
-                .company-name {
-                    text-decoration: none;
-                    color: white;
-                    text-transform: capitalize;
-                    font-size: 1.5rem;
-                }
-
-                .logo-img {
-                    width: 32px;
-                    display: flex;
-                    height: 32px;
-                    background: #fff;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 32px;
-
-                    img {
-                        width: 20px;
-                        height: 20px;
-                    }
-                }
-            }
-        }
-
-        .sidebar-menu-holder {
-           list-style: none;
-
-            .list-item {
-                cursor: pointer;
-            }
-        }
-    }
+    @import './sidebar';
 </style>
