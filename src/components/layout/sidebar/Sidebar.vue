@@ -15,32 +15,38 @@
         <ul class="sidebar-menu-holder">
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
-                   <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">dashboard</p>
+                   <font-awesome-icon icon="th" />
+                    <p class="ml-2">grid</p>
+                </a>
+            </li>
+            <li class="list-item">                
+                <a href="#/dashboard" class="nav-link">
+                    <font-awesome-icon icon="toggle-on" />
+                    <p class="ml-2">buttons</p>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
                     <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">dashboard</p>
+                    <p class="ml-2">badges</p>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
                     <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">dashboard</p>
+                    <p class="ml-2">alerts</p>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
                     <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">dashboard</p>
+                    <p class="ml-2">placeholders</p>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
                     <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">dashboard</p>
+                    <p class="ml-2">ribbons</p>
                 </a>
             </li>
         </ul>
