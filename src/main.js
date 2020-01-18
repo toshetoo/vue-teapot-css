@@ -4,7 +4,7 @@ import App from './App.vue'
 import { router } from './routes';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faChartPie, faTh, faToggleOn, faIdBadge, faExclamationTriangle, faPollH, faRibbon } from '@fortawesome/free-solid-svg-icons'
+import { faChartPie, faTh, faToggleOn, faIdBadge, faExclamationTriangle, faPollH, faRibbon, faClock } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueRouter from 'vue-router';
 
@@ -15,6 +15,7 @@ library.add(faIdBadge);
 library.add(faExclamationTriangle);
 library.add(faPollH);
 library.add(faRibbon);
+library.add(faClock);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
