@@ -40,10 +40,6 @@ export default {
         padding: 15px;
     }
 
-    .main-content-holder {
-        background-color: green;
-    }
-
     .footer-holder {
         background-color: blue;
     }
