@@ -23,7 +23,7 @@ export default {
         toggle: function() {
             this.isPreview = !this.isPreview;
             if (this.isPreview)
-                this.htmlData = this.proccessString(this.$el.outerHTML);
+                this.htmlData = this.proccessString(this.$el.querySelector('.visual-preview').outerHTML);
         },
         proccessString: function(string) {
             let div = document.createElement('div');
