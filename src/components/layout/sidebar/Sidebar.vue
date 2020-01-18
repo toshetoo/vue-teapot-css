@@ -16,37 +16,37 @@
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
                    <font-awesome-icon icon="th" />
-                    <p class="ml-2">grid</p>
+                    <router-link to="/grid" class="ml-2">grid</router-link>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
                     <font-awesome-icon icon="toggle-on" />
-                    <p class="ml-2">buttons</p>
+                    <router-link to="/buttons" class="ml-2">buttons</router-link>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
-                    <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">badges</p>
+                    <font-awesome-icon icon="id-badge" />
+                    <router-link to="/badges" class="ml-2">badges</router-link>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
-                    <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">alerts</p>
+                    <font-awesome-icon icon="exclamation-triangle" />
+                    <router-link to="alerts" class="ml-2">alerts</router-link>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
-                    <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">placeholders</p>
+                    <font-awesome-icon icon="poll-h" />
+                    <router-link to="/placeholders" class="ml-2">placeholders</router-link>
                 </a>
             </li>
             <li class="list-item">                
                 <a href="#/dashboard" class="nav-link">
-                    <font-awesome-icon icon="chart-pie" />
-                    <p class="ml-2">ribbons</p>
+                    <font-awesome-icon icon="ribbon" />
+                    <router-link to="/ribbons" class="ml-2">ribbons</router-link>
                 </a>
             </li>
         </ul>
