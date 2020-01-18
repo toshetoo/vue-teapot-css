@@ -111,7 +111,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+    .visual-preview {
+        display: flex;
+    }
 </style>
 
