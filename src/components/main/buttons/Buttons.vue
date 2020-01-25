@@ -96,7 +96,7 @@
 import CardView from '../../shared/card-view/CardView';
 import CardBody from '../../shared/card-view/card-body/CardBody';
 import CardHeader from '../../shared/card-view/card-header/CardHeader';
-import HtmlPreview from '../../shared/html-preview/HtmlPreview';
+import HtmlPreview from 'vue-html-viewer';
 
 export default {
     name: 'Buttons',
